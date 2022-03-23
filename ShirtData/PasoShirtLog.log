@@ -1,0 +1,27 @@
+2022-03-23 19:49:11.023  INFO 120 --- [main] g.b.S.ShirtData.ShirtDataApplication     : Starting ShirtDataApplication using Java 1.8.0_181 on DESKTOP-0HD3U8L with PID 120 (C:\Users\user\Desktop\ShirtData\target\classes started by DinamoTbilisi in C:\Users\user\Desktop\ShirtData)
+2022-03-23 19:49:11.054  INFO 120 --- [main] g.b.S.ShirtData.ShirtDataApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-03-23 19:49:15.187  INFO 120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-23 19:49:15.328  INFO 120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2022-03-23 19:49:17.250  INFO 120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-03-23 19:49:17.266  INFO 120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-23 19:49:17.266  INFO 120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-23 19:49:17.469  INFO 120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-23 19:49:17.469  INFO 120 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6227 ms
+2022-03-23 19:49:17.937  INFO 120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-23 19:49:17.953  WARN 120 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-03-23 19:49:18.875  INFO 120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-23 19:49:19.344  INFO 120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-23 19:49:19.719  INFO 120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-23 19:49:20.714  INFO 120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-23 19:49:21.324  INFO 120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-03-23 19:49:23.027  INFO 120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-23 19:49:23.136  INFO 120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-23 19:49:24.293  WARN 120 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-23 19:49:25.211  INFO 120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-23 19:49:25.226  INFO 120 --- [main] g.b.S.ShirtData.ShirtDataApplication     : Started ShirtDataApplication in 15.46 seconds (JVM running for 17.175)
+2022-03-23 19:52:12.814  INFO 120 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-23 19:52:12.814  INFO 120 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-23 19:52:12.817  INFO 120 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-03-23 20:07:18.871  INFO 120 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-23 20:07:18.871  INFO 120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-23 20:07:18.886  INFO 120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
